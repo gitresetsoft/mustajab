@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Mustajab Times Reminder",
+  "version": "1.0.1",
+  "description": "Reminds Muslims of blessed times for making dua",
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "src/background/service-worker.ts",
+    "type": "module"
+  },
+  "icons": {
+    "16": "src/assets/icon-16.png",
+    "32": "src/assets/icon-32.png",
+    "48": "src/assets/icon-48.png",
+    "128": "src/assets/icon-128.png"
+  }
+} 

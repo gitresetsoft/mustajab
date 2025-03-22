@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-03-19",
+  "timezone": "Asia/Kuala_Lumpur",
+  "times": [
+    {
+      "id": "test",
+      "time": "16:50",
+      "description": "Test dua"
+    },
+    {
+      "id": "morning",
+      "time": "07:00",
+      "description": "Morning blessed time for dua"
+    },
+    {
+      "id": "forenoon",
+      "time": "10:00",
+      "description": "Forenoon blessed time for dua"
+    },
+    {
+      "id": "night",
+      "time": "23:00",
+      "description": "Night blessed time for dua"
+    }
+  ]
+} 
