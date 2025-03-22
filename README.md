@@ -2,6 +2,9 @@
 
 A Chrome extension that reminds Muslims of special times (mustajab times) that are particularly blessed for making dua/supplication.
 
+> Inspired by [GetDoa](https://github.com/Hazqeel09/getdoav3) (Github)   
+> https://getdoa.com/
+
 ## Features
 
 - Time-based dua reminders
