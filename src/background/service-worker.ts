@@ -22,25 +22,32 @@ chrome.alarms.onAlarm.addListener(async (alarm) => {
     const notificationsEnabled = result.notificationsEnabled ?? true;
     
     if (!notificationsEnabled) return;
-    
+
     const now = new Date();
     // Convert to Malaysia time
     const malaysiaTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kuala_Lumpur' }));
     const currentTime = `${String(malaysiaTime.getHours()).padStart(2, '0')}:${String(malaysiaTime.getMinutes()).padStart(2, '0')}`;
     
+    console.log("Current Time:", currentTime);  // Log current time
+
     // Find if there's a reminder for current time
     const reminder = cachedTimes?.times.find(time => time.time === currentTime);
-    
+    console.log("Reminder Found:", reminder);  // Log found reminder
+
     if (reminder) {
-      // Show desktop notification
-      chrome.notifications.create(reminder.id, {
+      // Show desktop notification with a link to view the dua
+      chrome.notifications.create(reminder.id.toString(), {
         type: 'basic',
         iconUrl: '/src/assets/icon-128.png',
-        title: 'Time for Dua',
-        message: reminder.description + " " + Date.now().toString(),
+        title: 'Time for Doa!',
+        message: reminder.description + "\n <a href='https://example.com/view-dua'>Click to view the dua!</a>",
         priority: 2,
         requireInteraction: true,  // Keep notification visible until user interacts
-        silent: false  // Allow sound
+        silent: false,  // Allow sound
+        buttons: [{
+          title: "View Dua",
+          iconUrl: '/src/assets/icon-128.png'
+        }]
       });
       
       // Store last notification time

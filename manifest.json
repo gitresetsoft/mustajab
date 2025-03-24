@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Mustajab Times Reminder",
-  "version": "1.0.1",
-  "description": "Reminds Muslims of blessed times for making dua",
+  "version": "1.0.2",
+  "description": "Muslims reminder of blessed times for making dua✨",
   "permissions": [
     "alarms",
     "notifications",

@@ -8,7 +8,7 @@ export default function ReminderList() {
         All Reminder Times
       </h2>
       <div className="space-y-2">
-        {reminderTimes.times.map((reminder) => {
+        {reminderTimes.times.slice(0, 3).map((reminder) => {
           const [hours, minutes] = reminder.time.split(':').map(Number);
           const reminderDate = new Date();
           reminderDate.setHours(hours, minutes, 0);
@@ -29,6 +29,7 @@ export default function ReminderList() {
             </div>
           );
         })}
+        <a href="#" className="text-blue-500">See more...</a>
       </div>
     </div>
   );

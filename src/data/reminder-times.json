@@ -1,27 +1,348 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2024-03-19",
+  "version": "1.0.2",
+  "lastUpdated": "2024-03-24",
   "timezone": "Asia/Kuala_Lumpur",
   "times": [
     {
-      "id": "test",
-      "time": "16:50",
-      "description": "Test dua"
+      "id": 999,
+      "time": "16:42",
+      "date": "2025-03-24",
+      "description": "First day of Ramadan – a joyful and blessed start for your supplications (whole day)",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «إِذَا أَتَى رَمَضَانُ، فُتِحَتْ أَبْوَابُ الْجَنَّةِ» (رواه البخاري ومسلم)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Date is approximate based on the 2025 lunar calendar."
     },
     {
-      "id": "morning",
-      "time": "07:00",
-      "description": "Morning blessed time for dua"
+      "id": 1,
+      "time": "09:00",
+      "date": "2025-04-14",
+      "description": "First day of Ramadan – a joyful and blessed start for your supplications (whole day)",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «إِذَا أَتَى رَمَضَانُ، فُتِحَتْ أَبْوَابُ الْجَنَّةِ» (رواه البخاري ومسلم)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Date is approximate based on the 2025 lunar calendar."
     },
     {
-      "id": "forenoon",
+      "id": 2,
+      "time": "03:00",
+      "date": null,
+      "description": "Last third of the night – when Allah’s mercy descends and your heart finds hope",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «يَنْزِلُ رَبُّنَا تَبَارَكَ وَتَعَالَى فِي الثَّالِثِ مِنَ اللَّيْلِ، فَيَقُولُ: مَنْ يَدْعُونِي فَأَسْتَجِيبُ لَهُ» (رواه البخاري ومسلم)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Occurs daily; 3:00 AM is approximate for Malaysia."
+    },
+    {
+      "id": 3,
+      "time": "02:00",
+      "date": "2025-04-23",
+      "description": "Lailatul Qadr – The Night of Power, fill your heart with hope (whole day)",
+      "dua": "اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
+      "dalil": "عَنْ عَائِشَةَ رضي الله عنها: سُئِلَ النَّبِيُّ ﷺ: «أَيُّ لَيْلَةٍ هِيَ لَيْلَةُ الْقَدْرِ؟» فَقَالَ: «قُلْ: اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي» (رواه الترمذي)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Most likely the 27th night of Ramadan; date is approximate for 2025."
+    },
+    {
+      "id": 4,
       "time": "10:00",
-      "description": "Forenoon blessed time for dua"
+      "date": "2025-06-15",
+      "description": "Day of Arafah – a day overflowing with forgiveness and hope (whole day)",
+      "dua": "لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "dalil": "النبي ﷺ قال: «أَفْضَلُ دُعَاءٍ دُعَاءُ يَوْمِ عَرَفَةَ» (رواه الترمذي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "This is the 9th of Dhul Hijjah; date is approximate for 2025."
     },
     {
-      "id": "night",
-      "time": "23:00",
-      "description": "Night blessed time for dua"
+      "id": 5,
+      "time": "18:30",
+      "date": null,
+      "description": "Moments before breaking fast – a time of pure gratitude and divine acceptance",
+      "dua": "اللَّهُمَّ إِنِّي لَكَ صُمْتُ، وَبِكَ آمَنْتُ، وَعَلَيْكَ تَوَكَّلْتُ، وَعَلَى رِزْقِكَ أَفْطَرْتُ",
+      "dalil": "النبي ﷺ قال: «ثَلاَثَةٌ لَا يُرَدُّ دُعَاؤُهُمْ: دُعَاءُ الصَّائِمِ حَتَّى يُفْطِرَ» (رواه الترمذي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "Applicable during Ramadan or voluntary fasts; time varies with Maghrib."
+    },
+    {
+      "id": 6,
+      "time": "between adhan and iqamah",
+      "date": null,
+      "description": "Between Adhan and Iqamah – an open window for your joyful supplications",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «مَا يُرَدُّ دُعَاءُ بَيْنَ الْأَذَانِ وَالإِقَامَةِ» (رواه أبو داود والترمذي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "Occurs before every obligatory prayer."
+    },
+    {
+      "id": 7,
+      "time": "sajdah",
+      "date": null,
+      "description": "During Prostration – when you’re nearest to Allah, let your soul sing in du'a",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «أَقْرَبُ مَا يَكُونُ الْعَبْدُ مِنْ رَبِّهِ إِذَا سَجَدَ» (رواه مسلم)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Make extra du'a in sujood during any prayer."
+    },
+    {
+      "id": 8,
+      "time": "16:00",
+      "date": null,
+      "description": "Friday afternoon until Maghrib – a blessed time filled with mercy and joy",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «لَيَالِي الْجُمُعَةِ لَيْلَةٌ يُسْتَجَابُ فِيهَا الدُّعَاءُ» (رواه البخاري)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Time is approximate; actual hour may vary."
+    },
+    {
+      "id": 9,
+      "time": "02:30",
+      "date": null,
+      "description": "During Tahajjud – let the quiet of the night uplift your spirit in du'a",
+      "dua": null,
+      "dalil": "قالَ اللهُ في القرآن: «وَمَن يَتَطَهَّرْ» (جزء من الآية)، ويُثَبِّتُ النبي ﷺ فضل قيام الليل",
+      "strength": "strong",
+      "recurring": true,
+      "remark": "Typically performed after midnight until Fajr."
+    },
+    {
+      "id": 10,
+      "time": "11:00",
+      "date": null,
+      "description": "When it rains – every drop is a sign of Allah’s mercy; let your du'a flow with joy",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «دُعَاءُ الرَّجُلِ عِنْدَ نُزُولِ الْمَطَرِ لا يُرَدُّ» (رواه الحاكم)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "Applicable whenever rain falls."
+    },
+    {
+      "id": 11,
+      "time": "after obligatory prayers",
+      "date": null,
+      "description": "After Fardh Salah – let your heart burst with grateful du'a",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «افْتَحُوا أَبْوَابَ الدُّعَاءِ بَعْدَ الصَّلَوَاتِ» (رواه الترمذي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "Recite immediately after completing your prayer."
+    },
+    {
+      "id": 12,
+      "time": "12:00",
+      "date": null,
+      "description": "When drinking Zamzam water – let the sacred water magnify your intentions (whole day)",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «مَا مِنْ مَاءٍ إِلَّا لَهُ دَعْوَةٌ يُرَدُّ مِنْهُ» (رواه ابن ماجه)",
+      "strength": "sahih",
+      "recurring": false,
+      "remark": "Applicable when drinking authentic Zamzam water in Makkah."
+    },
+    {
+      "id": 13,
+      "time": "14:00",
+      "date": null,
+      "description": "During Travel – let your journey be filled with divine protection and ease",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «ثَلاَثَةٌ لَا يُرَدُّ دُعَاؤُهُمْ: دُعَاءُ الظَّالِمِ، دُعَاءُ السَّائِحِ، وَدُعَاءُ الْوَالِدِ لِابْنِهِ» (رواه أبو داود)",
+      "strength": "hasan",
+      "recurring": false,
+      "remark": "Ideal for all journeys; recite for safe travels."
+    },
+    {
+      "id": 14,
+      "time": "18:32",
+      "date": null,
+      "description": "When Breaking Fast – a moment bursting with gratitude and divine promise",
+      "dua": "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ",
+      "dalil": "النبي ﷺ قال: «دُعَاءُ الصَّائِمِ حَتَّى يُفْطِرَ لا يُرَدُّ» (رواه ابن ماجه)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "At iftar time during Ramadan or voluntary fasts."
+    },
+    {
+      "id": 15,
+      "time": "15:00",
+      "date": null,
+      "description": "A Parent's Du'a for Their Child – a beautiful expression of love and hope",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «دُعَاءُ الْوَالِدِ لِابْنِهِ لا يُرَدُّ» (رواه الترمذي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "For both mothers and fathers; recite with deep love."
+    },
+    {
+      "id": 16,
+      "time": "16:00",
+      "date": null,
+      "description": "When You Are Oppressed – let your heart cry out for divine justice",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «اتَّقُوا دُعَاءَ الظَّالِمِ فَإِنَّهُ لَا يُرَدُّ» (رواه البخاري)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "For those facing injustice; call upon Allah for relief."
+    },
+    {
+      "id": 17,
+      "time": "08:00",
+      "date": "2025-05-14",
+      "description": "Eid al-Fitr – a day of joyful unity and heartwarming supplications (whole day)",
+      "dua": null,
+      "dalil": "قال النبي ﷺ: «ادْعُوا اللَّهَ فِي الأَيَّامِ الْعِيدِ»",
+      "strength": "practice",
+      "recurring": false,
+      "remark": "Date is approximate for Eid al-Fitr 2025."
+    },
+    {
+      "id": 18,
+      "time": "09:30",
+      "date": "2025-07-21",
+      "description": "Eid al-Adha – a day of sacrifice and remembrance that fills your heart with hope (whole day)",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «أَفْضَلُ يَوْمٍ عِنْدَ اللَّهِ يَوْمُ الْعَتْرَةِ» (رواه أبو داود)",
+      "strength": "hasan",
+      "recurring": false,
+      "remark": "Date is approximate for Eid al-Adha 2025."
+    },
+    {
+      "id": 19,
+      "time": "during wudu",
+      "date": null,
+      "description": "During Wudu – as you purify your body, let your heart be filled with gratitude",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «إِذَا تَوَضَّأَ الْمُسْلِمُ دَعَا اللَّهَ فَأَجَابَهُ» (رواه مسلم)",
+      "strength": "practice",
+      "recurring": true,
+      "remark": "Make a heartfelt du'a during your ablution."
+    },
+    {
+      "id": 20,
+      "time": "05:30",
+      "date": null,
+      "description": "Before Fajr – in the stillness of dawn, feel the nearness of Allah",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «أَقْرَبُ مَا يَكُونُ الْعَبْدُ مِنْ رَبِّهِ وَهُوَ سَاجِدٌ» (رواه الترمذي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "A precious moment just before the Fajr prayer."
+    },
+    {
+      "id": 21,
+      "time": "22:00",
+      "date": null,
+      "description": "During Night Prayers (Qiyam al-Layl) – let the peaceful darkness nurture your du'a",
+      "dua": null,
+      "dalil": "قال الله في القرآن: «وَيَقُومُ الطَّائِفَةُ مِنَ الَّذِينَ آمَنُوا لِيَذْكُرُوا اللَّهَ» (القرآن 32:16)",
+      "strength": "strong",
+      "recurring": true,
+      "remark": "Any voluntary night prayer is a time for intimate du'a."
+    },
+    {
+      "id": 22,
+      "time": "after tashahud",
+      "date": null,
+      "description": "After Tashahud, before Tasleem – a serene pause to pour your heart out",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «اخْتَرْ لَكَ مِنْ دُعَائِكَ مَا تَشَاءُ» (رواه البخاري)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "A special moment during the sitting in prayer."
+    },
+    {
+      "id": 23,
+      "time": "17:00",
+      "date": null,
+      "description": "When Visiting the Sick – let your compassionate du'a bring healing and comfort",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «مَنْ زَارَ مُرِيضًا فِي الصَّبَاحِ، بُعِثَ لَهُ بِمَلَائِكَةٍ تُبَشِّرُهُ» (رواه الترمذي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "Offer du'a for healing when visiting the sick."
+    },
+    {
+      "id": 24,
+      "time": "while reciting Quran",
+      "date": null,
+      "description": "During Quran Recitation – let the divine words inspire your joyful supplications",
+      "dua": null,
+      "dalil": "الله يقول: «فَاسْتَمِعُوا قَوْلَ اللَّهِ وَلْيَتَّبِعْ أَحْسَنَهُ» (القرآن 7:204)",
+      "strength": "strong",
+      "recurring": true,
+      "remark": "Reflect on the verses and then make du'a."
+    },
+    {
+      "id": 25,
+      "time": "after witr",
+      "date": null,
+      "description": "After Witr – close your night with a grateful heart and humble du'a",
+      "dua": "سُبْحَانَ الْمَلِكِ الْقُدُّوسِ",
+      "dalil": "رُوِيَ عَنْ أُبَيّ بْنِ كَعْبٍ: كَانَ رَسُولُ اللَّهِ ﷺ يَتَسَبَّحُ بَعْدَ الوِتْرِ، فَيَقُولُ: «سُبْحَانَ الْمَلِكِ الْقُدُّوسِ» (رواه النسائي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "Recite immediately after the Witr prayer."
+    },
+    {
+      "id": 26,
+      "time": "18:00",
+      "date": null,
+      "description": "At the First Sight of the New Moon – welcome a new beginning with pure joy",
+      "dua": "اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ وَالْإِيمَانِ، وَالسَّلَامَةِ وَالْإِسْلَامِ، وَالتَّوْفِيقِ لِمَا تُحِبُّ رَبَّنَا وَتَرْضَى، رَبُّنَا وَرَبُّكَ اللَّهُ",
+      "dalil": "النبي ﷺ كان يدعو عند رؤية الهلال: «اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ...» (رواه الترمذي)",
+      "strength": "hasan",
+      "recurring": true,
+      "remark": "Upon sighting the new crescent moon."
+    },
+    {
+      "id": 27,
+      "time": "19:00",
+      "date": null,
+      "description": "During Times of Distress – let your heart find relief in Allah's infinite mercy",
+      "dua": "لَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ وَرَبُّ الْأَرْضِ",
+      "dalil": "روى ابن عباس رضي الله عنهما: «لا إله إلا الله العظيم الحليم...» (متواتر من البخاري ومسلم)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Recite during personal hardships and challenges."
+    },
+    {
+      "id": 28,
+      "time": "at waking",
+      "date": null,
+      "description": "Upon Waking – begin your day with a heart full of gratitude and light",
+      "dua": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا",
+      "dalil": "النبي ﷺ قال: «إِذَا اسْتَيْقَظَ أَحَدُكُمْ مِنَ النَّوْمِ، فَلْيَقُلْ: الْحَمْدُ لِلَّهِ...» (رواه الترمذي)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Recite immediately after waking up."
+    },
+    {
+      "id": 29,
+      "time": "20:00",
+      "date": null,
+      "description": "When Reciting Ayatul Kursi – let Allah’s protection embrace you",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «آيَةُ الْكُرْسِيِّ أَعْظَمُ آيَةٍ فِي الْقُرْآنِ» (رواه مسلم)",
+      "strength": "sahih",
+      "recurring": true,
+      "remark": "Recite after completing Quran recitation."
+    },
+    {
+      "id": 30,
+      "time": "21:00",
+      "date": null,
+      "description": "On the Battlefield – when courage meets faith, call upon Allah for victory",
+      "dua": null,
+      "dalil": "النبي ﷺ قال: «دُعَاءُ الْمُحَارِبِ لا يُرَدُّ» (رواه أبو داود)",
+      "strength": "hasan",
+      "recurring": false,
+      "remark": "For those engaged in justified defense or struggle."
     }
   ]
-} 
+}
